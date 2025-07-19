@@ -1,0 +1,46 @@
+.history-container {
+  padding: 20px;
+  background: #f8fbff;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.history-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.history-item {
+  background: #fff;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 10px;
+  line-height: 1.5;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.07);
+}
+
+.history-item.sent {
+  border-left: 5px solid #e74c3c;
+}
+
+.history-item.received {
+  border-left: 5px solid #2ecc71;
+}
+
+.location {
+  font-size: 0.9em;
+  color: #444;
+}
+.export-btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin-bottom: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.export-btn:hover {
+  background-color: #45a049;
+}

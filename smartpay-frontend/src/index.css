@@ -1,0 +1,233 @@
+/* === Reset and Global === */
+* {
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.main-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #1a2e49;
+  text-align: center;
+}
+
+.bottom-link {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #333;
+}
+
+.bottom-link a {
+  color: #007bff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.bottom-link a:hover {
+  text-decoration: underline;
+}
+/* === Auth Container (Login / Signup) === */
+.login-container,
+.auth-container {
+  max-width: 400px;
+  width: 100%;
+  margin: 100px auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2,
+.auth-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #223f61;
+}
+.signup-container,
+.auth-container {
+  max-width: 400px;
+  width: 100%;
+  margin: 100px auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.signup-container h2,
+.auth-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #223f61;
+}
+/* === Input Fields === */
+.input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fdfdfd;
+}
+
+.input:focus {
+  border-color: #007bff;
+  outline: none;
+  background-color: #fff;
+}
+
+/* === Buttons === */
+.button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* === App Header === */
+.app-container {
+  min-height: 100vh;
+  padding: 20px;
+  text-align: center;
+}
+
+.app-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* === Dashboard Container === */
+.dashboard-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+}
+
+.transfer-box {
+  margin: 20px 0;
+}
+
+/* === Message Info === */
+.info {
+  margin-top: 10px;
+  font-size: 0.95rem;
+  color: #007bff;
+}
+
+/* === Error Display === */
+.error {
+  color: red;
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+}
+
+/* === Notification Section === */
+.notification {
+  background: #fff3cd;
+  padding: 12px 16px;
+  margin-top: 12px;
+  border-left: 5px solid #ffc107;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  color: #5c3d00;
+}
+
+.clear-button {
+  background: none;
+  color: #dc3545;
+  font-size: 0.9rem;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.clear-button:hover {
+  color: #a71d2a;
+}
+
+/* === Financial Score Box === */
+.score-box {
+  background-color: #e3f2fd;
+  padding: 16px;
+  border-radius: 10px;
+  margin: 30px 0 20px;
+}
+
+.score-box h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #0d47a1;
+}
+
+.reward-text {
+  font-weight: bold;
+  margin-top: 8px;
+  color: #007bff;
+}
+
+/* === Table (Optional Transaction History) === */
+.transaction-history {
+  margin-top: 30px;
+}
+
+.transaction-history table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.transaction-history th,
+.transaction-history td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+  font-size: 14px;
+}
+
+.transaction-history th {
+  background-color: #007bff;
+  color: white;
+}
+
+.transaction-history tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+.transaction-history tr:hover {
+  background-color: #f1f1f1;
+}
+
